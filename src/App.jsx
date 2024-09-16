@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="mb-4">
+      <div className="mb-4 flex justify-center ">
         <button
           onClick={() => setActiveButton("map")}
           className={`border border-r-4 border-blue-500 px-4 py-2 rounded-l-md transition duration-300 ${

@@ -5,4 +5,12 @@
 body {
     background-color: black;
     color: white;
-}
+}html, body, #root {
+    height: 100%;
+  }
+  
+  .leaflet-container {
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+  }
+  

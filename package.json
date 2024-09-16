@@ -11,8 +11,10 @@
     "svgr": "svgr ./public/icons --out-dir ./src/assets/icons"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
     "@svgr/cli": "^8.1.0",
